@@ -105,7 +105,6 @@ a{
 .info-container{
     text-align: center;
     width: 200px;
-    height: 200px;
     color: rgb(80, 80, 80);
     font-size: 22px;
 }
@@ -117,9 +116,22 @@ a{
     border: 4px  solid rgb(87, 110, 227);
 }
 
-.quote-box{
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.quote-content{
     background-color: #E5E7EB;
-    margin: 400px 350px 0 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px
+}
+
+.quote-box{
+    width: 830px;
 }
 
 .quote{
@@ -131,12 +143,12 @@ a{
 .thor{
     font-size: 24px;
     font-weight: bold;
-    margin-left: 800px;
+    margin-left: 550px;
 }
 
 .call-box{
-    margin: 300px auto;
-    height: 150px;
+    margin: 0 auto;
+    height: 200px;
     width: 1200px;
     border-radius: 8px;
     background-color: #3882F6;
