@@ -45,6 +45,10 @@ button{
     border: 0;
 }
 
+.bottom-content button{
+    border: solid white 3px;
+}
+
 .content{
     flex: 1;
     display: flex;
@@ -128,4 +132,41 @@ a{
     font-size: 24px;
     font-weight: bold;
     margin-left: 800px;
+}
+
+.call-box{
+    margin: 300px auto;
+    height: 150px;
+    width: 1200px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-content{
+    height: 100px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.call-title{
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.call-text{
+    font-size: 18px;
+    color: white;
 }
