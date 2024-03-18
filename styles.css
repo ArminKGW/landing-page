@@ -76,5 +76,39 @@ a{
 
 .logo{
     font-size: 24px;
+    font-weight: 700;
     color: #F9FAF8
+}
+
+.bottom{
+    height: 1500px;
+}
+
+.info-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 48px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.info-container{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    color: rgb(80, 80, 80);
+    font-size: 22px;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 14px;
+    border: 4px  solid rgb(87, 110, 227);
 }
